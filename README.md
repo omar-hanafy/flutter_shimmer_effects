@@ -9,13 +9,13 @@ A modern, highly customizable shimmer effect widget for Flutter. Create beautifu
 
 <table>
   <tr>
-    <td><img src="screenshots/basic.gif" alt="Basic shimmer demo" width="240" /></td>
-    <td><img src="screenshots/built-in.gif" alt="Built-in skeletons demo" width="240" /></td>
-    <td><img src="screenshots/directions.gif" alt="Direction variants demo" width="240" /></td>
+    <td><img src="https://github.com/omar-hanafy/flutter_shimmer_effects/blob/main/screenshots/basic.gif?raw=true" alt="Basic shimmer demo" width="240" /></td>
+    <td><img src="https://github.com/omar-hanafy/flutter_shimmer_effects/blob/main/screenshots/built-in.gif?raw=true" alt="Built-in skeletons demo" width="240" /></td>
+    <td><img src="https://github.com/omar-hanafy/flutter_shimmer_effects/blob/main/screenshots/directions.gif?raw=true" alt="Direction variants demo" width="240" /></td>
   </tr>
   <tr>
-    <td><img src="screenshots/gradient.gif" alt="Custom gradient demo" width="240" /></td>
-    <td><img src="screenshots/list.gif" alt="List loading demo" width="240" /></td>
+    <td><img src="https://github.com/omar-hanafy/flutter_shimmer_effects/blob/main/screenshots/gradient.gif?raw=true" alt="Custom gradient demo" width="240" /></td>
+    <td><img src="https://github.com/omar-hanafy/flutter_shimmer_effects/blob/main/screenshots/list.gif?raw=true" alt="List loading demo" width="240" /></td>
     <td></td>
   </tr>
 </table>
