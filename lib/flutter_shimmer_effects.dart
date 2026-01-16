@@ -1,11 +1,12 @@
 /// A modern, highly customizable shimmer effect widget for Flutter.
 ///
-/// [Shimmer] applies an animated gradient mask over its [child] to create
+/// [Shimmer] applies an animated gradient mask over its [Shimmer.child] to create
 /// a "skeleton loading" or "highlight" effect.
 ///
 /// ### Core Behavior
-/// The [child] widget defines the *shape* of the shimmer. The [gradient] defines
-/// the *colors* that move across that shape. The alpha channel of the [child]
+/// The [Shimmer.child] widget defines the *shape* of the shimmer. The
+/// [Shimmer.gradient] defines the *colors* that move across that shape. The
+/// alpha channel of the [Shimmer.child]
 /// is preserved, but its original colors are overridden by the gradient.
 ///
 /// ### Usage
@@ -254,7 +255,7 @@ class Shimmer extends StatefulWidget {
   ///
   /// If `false`, the animation stops.
   /// Note: The animation effectively runs only if `enabled` is true AND
-  /// ([controller] is null OR [controller.isAnimating] is true).
+  /// ([controller] is null OR [ShimmerController.isAnimating] is true).
   final bool enabled;
 
   /// An optional external controller to synchronize or manage the animation state.
@@ -885,10 +886,12 @@ class ShimmerLoading extends StatelessWidget {
   /// The "skeleton" widget to display while loading.
   final Widget placeholder;
 
-  /// Optional override for the shimmer base color. Defaults to [Colors.grey[300]].
+  /// Optional override for the shimmer base color. Defaults to
+  /// `Colors.grey.shade300`.
   final Color? baseColor;
 
-  /// Optional override for the shimmer highlight color. Defaults to [Colors.grey[100]].
+  /// Optional override for the shimmer highlight color. Defaults to
+  /// `Colors.grey.shade100`.
   final Color? highlightColor;
 
   /// Direction of the shimmer animation.
