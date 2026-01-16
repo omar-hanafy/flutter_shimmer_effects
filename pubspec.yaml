@@ -1,0 +1,23 @@
+name: flutter_shimmer_effects
+description: This package provides various shimmer effects for flutter.
+version: 1.0.0-dev.1
+repository: https://github.com/omar-hanafy/flutter_shimmer_effects
+issue_tracker: https://github.com/omar-hanafy/flutter_shimmer_effects/issues
+homepage: https://github.com/omar-hanafy/flutter_shimmer_effects
+
+screenshots:
+  - description: Package cover image
+    path: screenshots/cover.png
+
+environment:
+  sdk: '>=3.10.4 <4.0.0'
+  flutter: '>=3.38.5'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 6.0.0
+  flutter_test:
+    sdk: flutter
